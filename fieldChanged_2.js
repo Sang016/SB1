@@ -9,8 +9,8 @@
 
     var currentRecord = context.currentRecord;
 
-    var FieldName = context.fieldId;
-     
+    var FieldName = currentRecord.fieldId;
+    var xyz = currentRecord.getValue('entity') ;
 
         if (FieldName === 'entity')
 
